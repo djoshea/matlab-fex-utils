@@ -1,4 +1,6 @@
 function addLineExclusive(srcBlock, srcPortNum, dstBlocks, dstPortNums)
+% Connects one block to another, deleting other outgoing connections
+% 
 % addLineExclusive(srcBlock, srcPortNum, dstBlocks, dstPortNums)
 %
 % Adds a line from srcBlock/srcPortNum -> dstBlock/dstPortNum if it doesn't

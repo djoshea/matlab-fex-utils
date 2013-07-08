@@ -1,4 +1,6 @@
 function redrawLines(block)
+% Reroute all lines connected to block
+%
 % redrawLines(block)
 %
 % Delete and redraw all lines connected to block to enable better autorouting

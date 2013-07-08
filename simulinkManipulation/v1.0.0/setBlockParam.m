@@ -1,4 +1,6 @@
 function setBlockParam(blk, varargin)
+% Sets block parameters if they do not match current values
+%
 % setBlockParam(blk, varargin)
 %
 % setBlockParam(blk, ...) works just like set_param(blk, ...), except it checks the

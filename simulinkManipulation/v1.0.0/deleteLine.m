@@ -1,4 +1,6 @@
 function deleteLine(srcBlock, srcPortNum, dstBlock, dstPortNum)
+% Deletes a connection between a particular pair of blocks/ports if one exists
+%
 % deleteLine(srcBlock, srcPortNum, dstBlock, dstPortNum)
 %
 % Deletes the line connecting srcBlock/srcPortNum to dstBlock/dstPortNum

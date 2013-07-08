@@ -1,5 +1,8 @@
 function [portName, sysName] = makePortName(bName, portNum)
+% Generates a Simulink port name 
+%
 % [portName, sysName] = makePortName(bName, portNum)
+%
 % Return the port name string and system name string to be used when describing
 % block bName port number portNum
 

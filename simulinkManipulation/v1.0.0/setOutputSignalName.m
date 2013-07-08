@@ -1,5 +1,8 @@
 function setOutputSignalName(blockName, portNum, name)
+% Sets the name of a block's output signal
+%
 % setOutputSignalName(blockName, portNum, name)
+%
 % Sets the name of the outgoing signal from blockName/portNum 
 
     ph = get_param(blockName, 'PortHandles');

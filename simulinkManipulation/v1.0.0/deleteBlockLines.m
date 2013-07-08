@@ -1,4 +1,6 @@
 function deleteBlockLines(blockName)
+% Delete incoming and outgoing lines from a block
+%
 % deleteBlockLines(blockName)
 %
 % Delete incoming and outgoing lines from blockName

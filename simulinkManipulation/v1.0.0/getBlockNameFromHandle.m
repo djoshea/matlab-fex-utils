@@ -1,4 +1,6 @@
 function name = getBlockNameFromHandle(hBlock)
+% Convert block handle to block name
+%
 % name = getBlockNameFromHandle(hBlock)
 %
 % Given a block handle (e.g. as returned by gcbh), determine the name of the block

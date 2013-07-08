@@ -1,4 +1,6 @@
 function tf = blockExists(bName)
+% Determines whether a block exists
+%
 % tf = blockExists(bName)
 %
 % Returns true if block bName exists

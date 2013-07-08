@@ -1,4 +1,6 @@
 function deleteIncomingLine(blockName, portNum)
+% Deletes a line connected to a specific block's inports
+%
 % deleteIncomingLine(blockName, portNum)
 %
 % Deletes the line coming into blockName/portNum without affecting any other connections

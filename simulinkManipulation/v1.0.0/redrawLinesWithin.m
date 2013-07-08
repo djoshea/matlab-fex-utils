@@ -1,4 +1,8 @@
 function redrawLinesWithin(block)
+% Reroute all lines connected within a block
+%
+% redrawLinesWithin(block)
+%
 % Delete and redraw all lines within block to enable better autorouting
 % based heavily on http://www.mathworks.com/matlabcentral/fileexchange/34237
 %

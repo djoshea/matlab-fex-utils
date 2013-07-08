@@ -1,5 +1,8 @@
 function names = getBusSignalNamesFromInport(bInport)
+% Retrieve names of bus signals connected to inport
+% 
 % names = getBusSignalNamesFromInport(bInport)
+%
 % Retrieve the names of all signals found within a bus connected to the inport 
 % block bInport.
 %

@@ -1,4 +1,6 @@
 function deleteBrokenIncomingLines(blockName, portNum)
+% Deletes disconnected lines connected to a block's inports
+%
 % deleteBrokenIncomingLines(blockName, portNum)
 %
 % Deletes the line coming into blockName/portNum if it has no source

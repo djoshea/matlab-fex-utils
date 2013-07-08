@@ -1,4 +1,6 @@
 function [blockNames portNums] = getOutgoingLineDest(blockName, portNum)
+% Determines all blocks/ports to which a particular outport is connected
+%
 % [blockNames portNums] = getOutgoingLineDest(blockName, portNum)
 %
 % Determine all of the block/inport numbers to which the outgoing line from blockName/portNum

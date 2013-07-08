@@ -1,5 +1,7 @@
 function addBlockSafe(bSrc, bDest, varargin)
-% addBlockSave(bSrc, bDest, varargin)
+% Adds a new block by copying an existing block (typically from Simulink library)
+%
+% addBlockSafe(bSrc, bDest, varargin)
 %
 % Adds a block by copying bSrc to name bDest, specifying additional block parameters
 % passed via named property value pairs. If bDest already exists, ensures that block

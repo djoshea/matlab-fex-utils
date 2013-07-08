@@ -1,4 +1,6 @@
 function hLine = getIncomingLine(blockName, portNum)
+% Gets a handle to the line connected to a particular block inport
+%
 % hLine = getIncomingLine(blockName, portNum)
 %
 % Return a handle to the line connected to blockName/portNum, or [] if no line is

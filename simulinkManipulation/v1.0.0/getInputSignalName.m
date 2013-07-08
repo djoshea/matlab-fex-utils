@@ -1,4 +1,6 @@
 function name = getInputSignalName(blockName, portNum)
+% Determines the name of a signal connected to a particular inport
+%
 % name = getInputSignalName(blockName, portNum)
 %
 % Determine the name of the signal connected to blockName/portNum, or '?' if the 

@@ -1,4 +1,6 @@
 function setBlockPosition(block, x, y, width, height)
+% Set block position and size
+%
 % setBlockPosition(block, x, y, width, height)
 %
 % Sets a block's position and size. If any parameter is specified as NaN or

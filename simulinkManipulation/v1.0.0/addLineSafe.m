@@ -1,4 +1,6 @@
 function addLineSafe(srcBlock, srcPortNum, dstBlock, dstPortNum )
+% Connects one block to another at specific ports
+%
 % addLineSafe(srcBlock, srcPortNum, dstBlock, dstPortNum )
 %
 % Adds a line from srcBlock/srcPortNum to dstBlock/dstPortNum
